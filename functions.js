@@ -58,6 +58,8 @@ const output300 = isBiggerThanZero(300);
 function isBiggerThan100Together(number1, number2) {
   console.log("AANGEROEPEN?");
   console.log("INPUT:", number1, number2);
+  const sum = number1 + number2;
+  console.log("OPGETELD:", sum);
 }
 
 isBiggerThan100Together(1, 23);
