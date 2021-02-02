@@ -127,16 +127,14 @@ function reversStringLoop(string) {
   let outputString = "";
   for (let index = string.length - 1; index >= 0; index--) {
     const letter = string[index];
-    console.log(letter);
     outputString = outputString + letter;
   }
 
-  console.log(outputString);
   return outputString;
 }
 
 const outputLoop = reversStringLoop("koekje");
-console.log("OUTPUT:", outputLoop);
+// console.log("OUTPUT:", outputLoop);
 
 /* Opdracht 7 */
 // Schrijf een functie die een woord verwacht checkt of dit woord een palindroom is. Een palindroom is een
