@@ -163,19 +163,14 @@ const outputVrienden2 = isPalinDrome("vrienden");
 // "Hans en marietje lopen naar de supermarkt" en "e" geeft 6
 // "Hans is zijn mondkapje vergeten" en "a" geeft 2
 function countLetterInSentence(sentence, letter) {
-  console.log("AANGEROEPEN?", sentence, letter);
   let count = 0;
   for (let index = 0; index < sentence.length; index++) {
     const letterInSentence = sentence[index];
-    console.log("ONE LETTER OF SENTENCE IN LOOP:", letterInSentence);
     const isSameLetter = letterInSentence === letter;
-    console.log("SAME LETTER?", letterInSentence, letter, isSameLetter);
     if (isSameLetter) {
       count = count + 1;
     }
-    console.log("COUNTING IN LOOP", count);
   }
-  console.log("TOTAL COUNT:", count);
   return count;
 }
 
@@ -183,7 +178,7 @@ const outputCount = countLetterInSentence(
   "Hans en marietje lopen naar de supermarkt",
   "e"
 );
-console.log("OUTPUT:", outputCount);
+// console.log("OUTPUT:", outputCount);
 
 // ------------------------------- ADVANCED (optionele bonusopdrachten)
 
