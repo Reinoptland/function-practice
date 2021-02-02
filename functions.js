@@ -107,10 +107,13 @@ function reverseString(string) {
   console.log(reversedArray);
   const outputString = reversedArray.join("");
   console.log(outputString);
+  return outputString;
 }
 
-reverseString("koekje");
-reverseString("vrienden");
+const outputKoekje = reverseString("koekje");
+const outputVrienden = reverseString("vrienden");
+
+console.log("OUTPUTS:", outputKoekje, outputVrienden);
 
 /* Opdracht 7 */
 // Schrijf een functie die een woord verwacht checkt of dit woord een palindroom is. Een palindroom is een
