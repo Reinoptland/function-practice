@@ -42,6 +42,8 @@ const output23 = getSecondsFromMinutes(23);
 function isBiggerThanZero(number) {
   console.log("AANGEROEPEN?");
   console.log("INPUT:", number);
+  const biggerThanZero = number > 0;
+  console.log(number, "BIGGER THAN 0?", biggerThanZero);
 }
 
 isBiggerThanZero(-3);
