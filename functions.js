@@ -207,6 +207,11 @@ const outputArr2 = lastEntry([46, 65, 34, 204, 190, 89], 3);
 // ---- Verwachte uitkomsten:
 // [3, 6, 9, 17, 4, 6, 25] geeft 25
 // [46, 65, 34, 204, 190, 89] geeft 204
+function highestNumber() {
+  console.log("AANGEROEPEN?");
+}
+
+highestNumber();
 
 /* Opdracht 11 */
 // Schrijf een functie die geen parameters verwacht en de getallen 1 tot 100 print.
