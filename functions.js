@@ -26,11 +26,14 @@ function getSecondsFromMinutes(minutes) {
   console.log("INPUT:", minutes);
   const seconds = minutes * 60;
   console.log("SECONDS:", seconds);
+  return seconds;
 }
 
-getSecondsFromMinutes(1);
-getSecondsFromMinutes(3);
-getSecondsFromMinutes(23);
+const output1 = getSecondsFromMinutes(1);
+const output3 = getSecondsFromMinutes(3);
+const output23 = getSecondsFromMinutes(23);
+
+console.log("OUTPUTS:", output1, output3, output23);
 
 /* Opdracht 3 */
 // Schrijf een functie die een cijfer verwacht en teruggeeft of het cijfer groter is
