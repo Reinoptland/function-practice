@@ -241,10 +241,12 @@ function fizzBuzz() {
     const divisibleBy5 = number % 5 === 0;
     console.log(number, "DIVISIBLE BY 5?", divisibleBy5);
 
-    if (divisibleBy3) {
+    if (divisibleBy3 && !divisibleBy5) {
       console.log("Fizz");
-    } else if (divisibleBy5) {
+    } else if (divisibleBy5 && !divisibleBy3) {
       console.log("Buzz");
+    } else if (divisibleBy3 && divisibleBy5) {
+      console.log("FizzBuzz");
     }
   }
 }
