@@ -132,9 +132,11 @@ function reversStringLoop(string) {
   }
 
   console.log(outputString);
+  return outputString;
 }
 
-reversStringLoop("koekje");
+const outputLoop = reversStringLoop("koekje");
+console.log("OUTPUT:", outputLoop);
 
 /* Opdracht 7 */
 // Schrijf een functie die een woord verwacht checkt of dit woord een palindroom is. Een palindroom is een
