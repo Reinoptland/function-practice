@@ -62,11 +62,14 @@ function isBiggerThan100Together(number1, number2) {
   console.log("OPGETELD:", sum);
   const biggerThan100 = sum > 100;
   console.log(sum, "BIGGER THAN 100?", biggerThan100);
+  return biggerThan100;
 }
 
-isBiggerThan100Together(1, 23);
-isBiggerThan100Together(8, 92);
-isBiggerThan100Together(89, 14);
+const output123 = isBiggerThan100Together(1, 23);
+const output892 = isBiggerThan100Together(8, 92);
+const output8914 = isBiggerThan100Together(89, 14);
+
+console.log("OUTPUTS:", output123, output892, output8914);
 
 /* Opdracht 5 */
 // Schrijf een functie die een array van strings verwacht. Hoe lang die array is, weet je niet van tevoren,
