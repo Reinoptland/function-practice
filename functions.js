@@ -216,7 +216,13 @@ function highestNumber(numberArray) {
     console.log("1 NUMBER IN LOOP:", numberInLoop);
     const isHighestSoFar = numberInLoop > highestSoFar;
     console.log(numberInLoop, highestSoFar, "HIGHER", isHighestSoFar);
+    if (isHighestSoFar) {
+      highestSoFar = numberInLoop;
+      console.log("NEW HIGHEST:", highestSoFar);
+    }
   }
+
+  console.log("HIGHEST AT THE END:", highestSoFar);
 }
 
 highestNumber([3, 6, 9, 17, 4, 6, 25]);
