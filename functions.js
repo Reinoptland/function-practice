@@ -109,6 +109,28 @@ const outputKoekje = reverseString("koekje");
 const outputVrienden = reverseString("vrienden");
 // console.log("OUTPUTS:", outputKoekje, outputVrienden);
 
+function reversStringLoop(string) {
+  // looping backward:
+  // starting at index at string.length - 1
+  // koekje: length -> 6, length - 1 -> 5
+  // the first letter we will get is: string[5] -> e (the last letter)
+  // keeping going as long as index is bigger or equal to 0
+  // after each iteration of the loop subtract 1 from index
+  // koekje[5] -> e
+  // koekje[4] -> j
+  // koekje[3] -> k
+  // koekje[2] -> e
+  // koekje[1] -> o
+  // koekje[0] -> k
+  // Loop stopped (no longer bigger or equal to 0)
+  for (let index = string.length - 1; index >= 0; index--) {
+    const letter = string[index];
+    console.log(letter);
+  }
+}
+
+reversStringLoop("koekje");
+
 /* Opdracht 7 */
 // Schrijf een functie die een woord verwacht checkt of dit woord een palindroom is. Een palindroom is een
 // spiegelwoord: het is hetzelfde zowel vooruit als achterstevoren. Als dit zo is, geeft de functie true terug,
