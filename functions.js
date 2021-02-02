@@ -196,6 +196,9 @@ function lastEntry(array, count = 1) {
   const firstIndexToInclude = array.length - count;
   console.log("FIRST INDEX TO INCLUDE:", firstIndexToInclude);
   console.log("FIRST ELEMENT TO INCLUDE:", array[firstIndexToInclude]);
+  // using array slice to "cut the array in half" at the right index
+  const outputArray = array.slice(firstIndexToInclude);
+  console.log(outputArray);
 }
 
 lastEntry([3, 6, 9, 17, 4, 6, 25, 4]);
