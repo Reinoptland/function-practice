@@ -238,6 +238,12 @@ function fizzBuzz() {
     console.log("NUMBER IN LOOP:", number);
     const divisibleBy3 = number % 3 === 0;
     console.log(number, "DIVISIBLE BY 3?", divisibleBy3);
+    const divisibleBy5 = number % 5 === 0;
+    console.log(number, "DIVISIBLE BY 5?", divisibleBy5);
+
+    if (divisibleBy3) {
+      console.log("Fizz");
+    }
   }
 }
 
