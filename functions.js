@@ -99,21 +99,15 @@ const outputAbcde = joinStrings(["a", "b", "c", "d", "e"]);
 // "vrienden" geeft "nedneirv"
 
 function reverseString(string) {
-  console.log("AANGEROEPEN?");
-  console.log("INPUT:", string);
   const stringArray = string.split("");
-  console.log(stringArray);
   const reversedArray = stringArray.reverse();
-  console.log(reversedArray);
   const outputString = reversedArray.join("");
-  console.log(outputString);
   return outputString;
 }
 
 const outputKoekje = reverseString("koekje");
 const outputVrienden = reverseString("vrienden");
-
-console.log("OUTPUTS:", outputKoekje, outputVrienden);
+// console.log("OUTPUTS:", outputKoekje, outputVrienden);
 
 /* Opdracht 7 */
 // Schrijf een functie die een woord verwacht checkt of dit woord een palindroom is. Een palindroom is een
