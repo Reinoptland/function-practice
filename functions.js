@@ -123,10 +123,15 @@ function reversStringLoop(string) {
   // koekje[1] -> o
   // koekje[0] -> k
   // Loop stopped (no longer bigger or equal to 0)
+
+  let outputString = "";
   for (let index = string.length - 1; index >= 0; index--) {
     const letter = string[index];
     console.log(letter);
+    outputString = outputString + letter;
   }
+
+  console.log(outputString);
 }
 
 reversStringLoop("koekje");
