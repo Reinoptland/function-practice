@@ -22,18 +22,14 @@ const greetNick = greet("Nick");
 // 3 geeft 180
 // 23 geeft 1840
 function getSecondsFromMinutes(minutes) {
-  console.log("AANGEROEPEN?");
-  console.log("INPUT:", minutes);
   const seconds = minutes * 60;
-  console.log("SECONDS:", seconds);
   return seconds;
 }
 
 const output1 = getSecondsFromMinutes(1);
 const output3 = getSecondsFromMinutes(3);
 const output23 = getSecondsFromMinutes(23);
-
-console.log("OUTPUTS:", output1, output3, output23);
+// console.log("OUTPUTS:", output1, output3, output23);
 
 /* Opdracht 3 */
 // Schrijf een functie die een cijfer verwacht en teruggeeft of het cijfer groter is
