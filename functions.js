@@ -150,6 +150,8 @@ function isPalinDrome(word) {
   // CHEESE
   const reverseWord = reverseString(word);
   console.log(reverseWord);
+  const palindrome = reverseWord === word;
+  console.log(word, "IS PALINDROME?", palindrome);
 }
 
 isPalinDrome("lepel");
