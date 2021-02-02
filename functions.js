@@ -55,11 +55,14 @@ const output300 = isBiggerThanZero(300);
 // 1 en 23 geeft false
 // 8 en 92 geeft false
 // 89 en 14 geeft true
-function isBiggerThan100Together() {
+function isBiggerThan100Together(number1, number2) {
   console.log("AANGEROEPEN?");
+  console.log("INPUT:", number1, number2);
 }
 
-isBiggerThan100Together();
+isBiggerThan100Together(1, 23);
+isBiggerThan100Together(8, 92);
+isBiggerThan100Together(89, 14);
 
 /* Opdracht 5 */
 // Schrijf een functie die een array van strings verwacht. Hoe lang die array is, weet je niet van tevoren,
