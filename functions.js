@@ -190,6 +190,9 @@ const outputCount = countLetterInSentence(
 // lastEntry([46, 65, 34, 204, 190, 89], 3) geeft [204, 190, 89]
 
 function lastEntry(array, count) {
+  if (count === undefined) {
+    count = 1;
+  }
   console.log("AANGEROEPEN?");
   console.log("INPUT:", array, count);
 }
