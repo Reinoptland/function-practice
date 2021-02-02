@@ -152,11 +152,14 @@ function isPalinDrome(word) {
   console.log(reverseWord);
   const palindrome = reverseWord === word;
   console.log(word, "IS PALINDROME?", palindrome);
+  return palindrome;
 }
 
-isPalinDrome("lepel");
-isPalinDrome("madam");
-isPalinDrome("vrienden");
+const outputLepel = isPalinDrome("lepel");
+const outputMadam = isPalinDrome("madam");
+const outputVrienden2 = isPalinDrome("vrienden");
+
+console.log("OUTPUT:", outputLepel, outputMadam, outputVrienden2);
 
 /* Opdracht 8 */
 // Schrijf een functie die een string en een letter verwacht. De functie telt hoe vaak die letter voorkomt in
