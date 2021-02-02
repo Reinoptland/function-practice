@@ -223,10 +223,12 @@ function highestNumber(numberArray) {
   }
 
   console.log("HIGHEST AT THE END:", highestSoFar);
+  return highestSoFar;
 }
 
-highestNumber([3, 6, 9, 17, 4, 6, 25]);
-highestNumber([46, 65, 34, 204, 190, 89]);
+const highest1 = highestNumber([3, 6, 9, 17, 4, 6, 25]);
+const highest2 = highestNumber([46, 65, 34, 204, 190, 89]);
+console.log("OUTPUT:", highest1, highest2);
 
 /* Opdracht 11 */
 // Schrijf een functie die geen parameters verwacht en de getallen 1 tot 100 print.
