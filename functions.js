@@ -144,6 +144,11 @@ const outputLoop = reversStringLoop("koekje");
 // "lepel" geeft true
 // "madam" geeft true
 // "vrienden" geeft false
+function isPalinDrome() {
+  console.log("AANGEROEPEN?");
+}
+
+isPalinDrome();
 
 /* Opdracht 8 */
 // Schrijf een functie die een string en een letter verwacht. De functie telt hoe vaak die letter voorkomt in
