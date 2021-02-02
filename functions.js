@@ -77,6 +77,10 @@ const output8914 = isBiggerThan100Together(89, 14);
 function joinStrings(stringArray) {
   console.log("AANGEROEPEN?");
   console.log("INPUT:", stringArray);
+  for (let index = 0; index < stringArray.length; index++) {
+    const string = stringArray[index];
+    console.log("1 STRING IN LOOP", string);
+  }
 }
 
 joinStrings(["abra", "cadabra"]);
