@@ -230,6 +230,13 @@ const highest2 = highestNumber([46, 65, 34, 204, 190, 89]);
 // Voor getallen die deelbaar zijn door 5 print je "Buzz" in plaats van het getal.
 // Voor getallen die zowel deelbaar zijn door 3 als door 5, print je "FizzBuzz".
 // ---- Verwachte uitkomst:
+
+function fizzBuzz() {
+  console.log("AANGEROEPEN?");
+}
+
+fizzBuzz();
+
 // 1
 // 2
 // Fizz
