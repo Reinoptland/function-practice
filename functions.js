@@ -162,6 +162,11 @@ const outputVrienden2 = isPalinDrome("vrienden");
 // ---- Verwachte uitkomsten:
 // "Hans en marietje lopen naar de supermarkt" en "e" geeft 6
 // "Hans is zijn mondkapje vergeten" en "a" geeft 2
+function countLetterInWord() {
+  console.log("AANGEROEPEN?");
+}
+
+countLetterInWord();
 
 // ------------------------------- ADVANCED (optionele bonusopdrachten)
 
