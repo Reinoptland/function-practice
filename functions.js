@@ -193,6 +193,8 @@ const outputCount = countLetterInSentence(
 function lastEntry(array, count = 1) {
   console.log("AANGEROEPEN?");
   console.log("INPUT:", array, count);
+  const firstIndexToInclude = array.length - count;
+  console.log("FIRST INDEX TO INCLUDE:", firstIndexToInclude);
 }
 
 lastEntry([3, 6, 9, 17, 4, 6, 25, 4]);
