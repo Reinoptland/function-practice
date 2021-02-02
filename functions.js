@@ -5,11 +5,16 @@
 // ---- Verwachte uitkomsten:
 // "Nova" geeft "Hoi Nova!"
 // "Nick" geeft "Hoi Nick!"
-function greet() {
+function greet(name) {
   console.log("AANGEROEPEN?");
+  console.log("INPUT:", name);
+  return `Hoi ${name}`;
 }
 
-greet();
+const greetNova = greet("Nova");
+const greetNick = greet("Nick");
+console.log("OUTPUT 1:", greetNova);
+console.log("OUTPUT 2:", greetNick);
 
 /* Opdracht 2 */
 // Schrijf een functie die een hoeveelheid minuten verwacht (als een getal) en teruggeeft
