@@ -39,6 +39,12 @@ const output23 = getSecondsFromMinutes(23);
 // 0 geeft false
 // 300 geeft true
 
+function isBiggerThanZero() {
+  console.log("AANGEROEPEN?");
+}
+
+isBiggerThanZero();
+
 /* Opdracht 4 */
 // Schrijf een functie die twee getallen verwacht en teruggeeft of ze, opgetelt, gróter zijn dan 100.
 // ---- Verwachte uitkomsten:
