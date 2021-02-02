@@ -5,8 +5,11 @@
 // ---- Verwachte uitkomsten:
 // "Nova" geeft "Hoi Nova!"
 // "Nick" geeft "Hoi Nick!"
+function greet() {
+  console.log("AANGEROEPEN?");
+}
 
-
+greet();
 
 /* Opdracht 2 */
 // Schrijf een functie die een hoeveelheid minuten verwacht (als een getal) en teruggeeft
@@ -16,8 +19,6 @@
 // 3 geeft 180
 // 23 geeft 1840
 
-
-
 /* Opdracht 3 */
 // Schrijf een functie die een cijfer verwacht en teruggeeft of het cijfer groter is
 // dan nul
@@ -26,16 +27,12 @@
 // 0 geeft false
 // 300 geeft true
 
-
-
 /* Opdracht 4 */
 // Schrijf een functie die twee getallen verwacht en teruggeeft of ze, opgetelt, gróter zijn dan 100.
 // ---- Verwachte uitkomsten:
 // 1 en 23 geeft false
 // 8 en 92 geeft false
 // 89 en 14 geeft true
-
-
 
 /* Opdracht 5 */
 // Schrijf een functie die een array van strings verwacht. Hoe lang die array is, weet je niet van tevoren,
@@ -45,8 +42,6 @@
 // ---- Verwachte uitkomsten:
 // ["abra", "cadabra"] geeft "abracadabra"
 // ["a", "b", "c", "d", "e"] geeft "abcde"
-
-
 
 // -------------------------------  INTERMEDIATE
 
@@ -58,8 +53,6 @@
 // "koekje" geeft "ejkeok"
 // "vrienden" geeft "nedneirv"
 
-
-
 /* Opdracht 7 */
 // Schrijf een functie die een woord verwacht checkt of dit woord een palindroom is. Een palindroom is een
 // spiegelwoord: het is hetzelfde zowel vooruit als achterstevoren. Als dit zo is, geeft de functie true terug,
@@ -69,16 +62,12 @@
 // "madam" geeft true
 // "vrienden" geeft false
 
-
-
 /* Opdracht 8 */
 // Schrijf een functie die een string en een letter verwacht. De functie telt hoe vaak die letter voorkomt in
 // de string en geeft dit terug. Je mag hiervoor geen string- of array-methoden gebruiken.
 // ---- Verwachte uitkomsten:
 // "Hans en marietje lopen naar de supermarkt" en "e" geeft 6
 // "Hans is zijn mondkapje vergeten" en "a" geeft 2
-
-
 
 // ------------------------------- ADVANCED (optionele bonusopdrachten)
 
@@ -89,16 +78,12 @@
 // lastEntry([3, 6, 9, 17, 4, 6, 25, 4]) geeft 4
 // lastEntry([46, 65, 34, 204, 190, 89], 3) geeft [204, 190, 89]
 
-
-
 /* Opdracht 10 */
 // Schrijf een functie die een array van getallen verwacht. De functie geeft het hoogste
 // getal in de array terug. Je mag hier geen array-object methoden voor gebruiken zoals .max()
 // ---- Verwachte uitkomsten:
 // [3, 6, 9, 17, 4, 6, 25] geeft 25
 // [46, 65, 34, 204, 190, 89] geeft 204
-
-
 
 /* Opdracht 11 */
 // Schrijf een functie die geen parameters verwacht en de getallen 1 tot 100 print.
