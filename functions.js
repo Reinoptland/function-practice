@@ -85,10 +85,13 @@ function joinStrings(stringArray) {
   }
 
   console.log(outputString);
+  return outputString;
 }
 
-joinStrings(["abra", "cadabra"]);
-joinStrings(["a", "b", "c", "d", "e"]);
+const outputAbra = joinStrings(["abra", "cadabra"]);
+const outputAbcde = joinStrings(["a", "b", "c", "d", "e"]);
+
+console.log("OUTPUTS:", outputAbra, outputAbcde);
 
 // -------------------------------  INTERMEDIATE
 
