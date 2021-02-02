@@ -236,6 +236,8 @@ function fizzBuzz() {
   for (let index = 1; index <= 100; index++) {
     const number = index;
     console.log("NUMBER IN LOOP:", number);
+    const divisibleBy3 = number % 3 === 0;
+    console.log(number, "DIVISIBLE BY 3?", divisibleBy3);
   }
 }
 
