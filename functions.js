@@ -210,6 +210,10 @@ const outputArr2 = lastEntry([46, 65, 34, 204, 190, 89], 3);
 function highestNumber(numberArray) {
   console.log("AANGEROEPEN?");
   console.log("INPUT:", numberArray);
+  for (let index = 0; index < numberArray.length; index++) {
+    const numberInLoop = numberArray[index];
+    console.log("1 NUMBER IN LOOP:", numberInLoop);
+  }
 }
 
 highestNumber([3, 6, 9, 17, 4, 6, 25]);
