@@ -21,6 +21,11 @@ const greetNick = greet("Nick");
 // 1 geeft 60
 // 3 geeft 180
 // 23 geeft 1840
+function getSecondsFromMinutes() {
+  console.log("AANGEROEPEN?");
+}
+
+getSecondsFromMinutes();
 
 /* Opdracht 3 */
 // Schrijf een functie die een cijfer verwacht en teruggeeft of het cijfer groter is
