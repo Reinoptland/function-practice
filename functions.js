@@ -176,9 +176,14 @@ function countLetterInSentence(sentence, letter) {
     console.log("COUNTING IN LOOP", count);
   }
   console.log("TOTAL COUNT:", count);
+  return count;
 }
 
-countLetterInSentence("Hans en marietje lopen naar de supermarkt", "e");
+const outputCount = countLetterInSentence(
+  "Hans en marietje lopen naar de supermarkt",
+  "e"
+);
+console.log("OUTPUT:", outputCount);
 
 // ------------------------------- ADVANCED (optionele bonusopdrachten)
 
