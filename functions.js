@@ -145,21 +145,16 @@ const outputLoop = reversStringLoop("koekje");
 // "madam" geeft true
 // "vrienden" geeft false
 function isPalinDrome(word) {
-  console.log("AANGEROEPEN?");
-  console.log("INPUT:", word);
-  // CHEESE
+  // CHEESE, you can do this in fancier ways I am sure
   const reverseWord = reverseString(word);
-  console.log(reverseWord);
   const palindrome = reverseWord === word;
-  console.log(word, "IS PALINDROME?", palindrome);
   return palindrome;
 }
 
 const outputLepel = isPalinDrome("lepel");
 const outputMadam = isPalinDrome("madam");
 const outputVrienden2 = isPalinDrome("vrienden");
-
-console.log("OUTPUT:", outputLepel, outputMadam, outputVrienden2);
+// console.log("OUTPUT:", outputLepel, outputMadam, outputVrienden2);
 
 /* Opdracht 8 */
 // Schrijf een functie die een string en een letter verwacht. De functie telt hoe vaak die letter voorkomt in
