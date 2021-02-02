@@ -199,10 +199,13 @@ function lastEntry(array, count = 1) {
   // using array slice to "cut the array in half" at the right index
   const outputArray = array.slice(firstIndexToInclude);
   console.log(outputArray);
+  return outputArray;
 }
 
-lastEntry([3, 6, 9, 17, 4, 6, 25, 4]);
-lastEntry([46, 65, 34, 204, 190, 89], 3);
+const outputArr1 = lastEntry([3, 6, 9, 17, 4, 6, 25, 4]);
+const outputArr2 = lastEntry([46, 65, 34, 204, 190, 89], 3);
+
+console.log("OUTPUT:", outputArr1, outputArr2);
 
 /* Opdracht 10 */
 // Schrijf een functie die een array van getallen verwacht. De functie geeft het hoogste
