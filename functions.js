@@ -233,6 +233,10 @@ const highest2 = highestNumber([46, 65, 34, 204, 190, 89]);
 
 function fizzBuzz() {
   console.log("AANGEROEPEN?");
+  for (let index = 1; index <= 100; index++) {
+    const number = index;
+    console.log("NUMBER IN LOOP:", number);
+  }
 }
 
 fizzBuzz();
