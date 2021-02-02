@@ -208,27 +208,21 @@ const outputArr2 = lastEntry([46, 65, 34, 204, 190, 89], 3);
 // [3, 6, 9, 17, 4, 6, 25] geeft 25
 // [46, 65, 34, 204, 190, 89] geeft 204
 function highestNumber(numberArray) {
-  console.log("AANGEROEPEN?");
-  console.log("INPUT:", numberArray);
   let highestSoFar = 0;
   for (let index = 0; index < numberArray.length; index++) {
     const numberInLoop = numberArray[index];
-    console.log("1 NUMBER IN LOOP:", numberInLoop);
     const isHighestSoFar = numberInLoop > highestSoFar;
-    console.log(numberInLoop, highestSoFar, "HIGHER", isHighestSoFar);
     if (isHighestSoFar) {
       highestSoFar = numberInLoop;
-      console.log("NEW HIGHEST:", highestSoFar);
     }
   }
 
-  console.log("HIGHEST AT THE END:", highestSoFar);
   return highestSoFar;
 }
 
 const highest1 = highestNumber([3, 6, 9, 17, 4, 6, 25]);
 const highest2 = highestNumber([46, 65, 34, 204, 190, 89]);
-console.log("OUTPUT:", highest1, highest2);
+// console.log("OUTPUT:", highest1, highest2);
 
 /* Opdracht 11 */
 // Schrijf een functie die geen parameters verwacht en de getallen 1 tot 100 print.
