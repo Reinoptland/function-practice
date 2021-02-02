@@ -232,14 +232,10 @@ const highest2 = highestNumber([46, 65, 34, 204, 190, 89]);
 // ---- Verwachte uitkomst:
 
 function fizzBuzz() {
-  console.log("AANGEROEPEN?");
   for (let index = 1; index <= 100; index++) {
     const number = index;
-    console.log("NUMBER IN LOOP:", number);
     const divisibleBy3 = number % 3 === 0;
-    console.log(number, "DIVISIBLE BY 3?", divisibleBy3);
     const divisibleBy5 = number % 5 === 0;
-    console.log(number, "DIVISIBLE BY 5?", divisibleBy5);
 
     if (divisibleBy3 && !divisibleBy5) {
       console.log("Fizz");
