@@ -247,6 +247,8 @@ function fizzBuzz() {
       console.log("Buzz");
     } else if (divisibleBy3 && divisibleBy5) {
       console.log("FizzBuzz");
+    } else {
+      console.log(number);
     }
   }
 }
