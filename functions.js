@@ -167,6 +167,8 @@ function countLetterInSentence(sentence, letter) {
   for (let index = 0; index < sentence.length; index++) {
     const letterInSentence = sentence[index];
     console.log("ONE LETTER OF SENTENCE IN LOOP:", letterInSentence);
+    const isSameLetter = letterInSentence === letter;
+    console.log("SAME LETTER?", letterInSentence, letter, isSameLetter);
   }
 }
 
