@@ -189,6 +189,12 @@ const outputCount = countLetterInSentence(
 // lastEntry([3, 6, 9, 17, 4, 6, 25, 4]) geeft 4
 // lastEntry([46, 65, 34, 204, 190, 89], 3) geeft [204, 190, 89]
 
+function lastEntry() {
+  console.log("AANGEROEPEN?");
+}
+
+lastEntry();
+
 /* Opdracht 10 */
 // Schrijf een functie die een array van getallen verwacht. De functie geeft het hoogste
 // getal in de array terug. Je mag hier geen array-object methoden voor gebruiken zoals .max()
