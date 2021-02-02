@@ -147,6 +147,9 @@ const outputLoop = reversStringLoop("koekje");
 function isPalinDrome(word) {
   console.log("AANGEROEPEN?");
   console.log("INPUT:", word);
+  // CHEESE
+  const reverseWord = reverseString(word);
+  console.log(reverseWord);
 }
 
 isPalinDrome("lepel");
