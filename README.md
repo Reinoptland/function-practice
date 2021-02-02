@@ -49,4 +49,5 @@ om het script in de terminal te runnen.
 8. Count letter in Sentence: [https://github.githistory.xyz/Reinoptland/function-practice/blob/solution-count-letter-in-sentence/functions.js](https://github.githistory.xyz/Reinoptland/function-practice/blob/solution-count-letter-in-sentence/functions.js)
 9. Last Entry: [https://github.githistory.xyz/Reinoptland/function-practice/blob/solution-last-entry/functions.js](https://github.githistory.xyz/Reinoptland/function-practice/blob/solution-last-entry/functions.js)
 10. Highest in Array: [https://github.githistory.xyz/Reinoptland/function-practice/blob/solution-highest-sofar/functions.js](https://github.githistory.xyz/Reinoptland/function-practice/blob/solution-highest-sofar/functions.js)
-11. Fizz Buzz: [https://github.com/Reinoptland/function-practice/blob/solution-fizz-buzz/functions.js](https://github.com/Reinoptland/function-practice/blob/solution-fizz-buzz/functions.js)
+11. Fizz Buzz: [https://github.githistory.xyz/Reinoptland/function-practice/blob/solution-fizz-buzz/functions.js](https://github.githistory.xyz/Reinoptland/function-practice/blob/solution-fizz-buzz/functions.js)
+
