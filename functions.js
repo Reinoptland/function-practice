@@ -24,6 +24,8 @@ const greetNick = greet("Nick");
 function getSecondsFromMinutes(minutes) {
   console.log("AANGEROEPEN?");
   console.log("INPUT:", minutes);
+  const seconds = minutes * 60;
+  console.log("SECONDS:", seconds);
 }
 
 getSecondsFromMinutes(1);
