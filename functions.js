@@ -98,11 +98,13 @@ const outputAbcde = joinStrings(["a", "b", "c", "d", "e"]);
 // "koekje" geeft "ejkeok"
 // "vrienden" geeft "nedneirv"
 
-function reverseString() {
+function reverseString(string) {
   console.log("AANGEROEPEN?");
+  console.log("INPUT:", string);
 }
 
-reverseString();
+reverseString("koekje");
+reverseString("vrienden");
 
 /* Opdracht 7 */
 // Schrijf een functie die een woord verwacht checkt of dit woord een palindroom is. Een palindroom is een
