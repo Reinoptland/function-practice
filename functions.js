@@ -101,6 +101,8 @@ const outputAbcde = joinStrings(["a", "b", "c", "d", "e"]);
 function reverseString(string) {
   console.log("AANGEROEPEN?");
   console.log("INPUT:", string);
+  const stringArray = string.split("");
+  console.log(stringArray);
 }
 
 reverseString("koekje");
