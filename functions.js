@@ -60,6 +60,8 @@ function isBiggerThan100Together(number1, number2) {
   console.log("INPUT:", number1, number2);
   const sum = number1 + number2;
   console.log("OPGETELD:", sum);
+  const biggerThan100 = sum > 100;
+  console.log(sum, "BIGGER THAN 100?", biggerThan100);
 }
 
 isBiggerThan100Together(1, 23);
