@@ -210,9 +210,12 @@ const outputArr2 = lastEntry([46, 65, 34, 204, 190, 89], 3);
 function highestNumber(numberArray) {
   console.log("AANGEROEPEN?");
   console.log("INPUT:", numberArray);
+  let highestSoFar = 0;
   for (let index = 0; index < numberArray.length; index++) {
     const numberInLoop = numberArray[index];
     console.log("1 NUMBER IN LOOP:", numberInLoop);
+    const isHighestSoFar = numberInLoop > highestSoFar;
+    console.log(numberInLoop, highestSoFar, "HIGHER", isHighestSoFar);
   }
 }
 
