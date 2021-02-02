@@ -74,11 +74,13 @@ const output8914 = isBiggerThan100Together(89, 14);
 // ---- Verwachte uitkomsten:
 // ["abra", "cadabra"] geeft "abracadabra"
 // ["a", "b", "c", "d", "e"] geeft "abcde"
-function joinStrings() {
+function joinStrings(stringArray) {
   console.log("AANGEROEPEN?");
+  console.log("INPUT:", stringArray);
 }
 
-joinStrings();
+joinStrings(["abra", "cadabra"]);
+joinStrings(["a", "b", "c", "d", "e"]);
 
 // -------------------------------  INTERMEDIATE
 
