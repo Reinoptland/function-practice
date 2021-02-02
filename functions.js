@@ -103,6 +103,8 @@ function reverseString(string) {
   console.log("INPUT:", string);
   const stringArray = string.split("");
   console.log(stringArray);
+  const reversedArray = stringArray.reverse();
+  console.log(reversedArray);
 }
 
 reverseString("koekje");
