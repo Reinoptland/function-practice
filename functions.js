@@ -75,23 +75,18 @@ const output8914 = isBiggerThan100Together(89, 14);
 // ["abra", "cadabra"] geeft "abracadabra"
 // ["a", "b", "c", "d", "e"] geeft "abcde"
 function joinStrings(stringArray) {
-  console.log("AANGEROEPEN?");
-  console.log("INPUT:", stringArray);
   let outputString = "";
   for (let index = 0; index < stringArray.length; index++) {
     const string = stringArray[index];
-    console.log("1 STRING IN LOOP", string);
     outputString = outputString + string;
   }
 
-  console.log(outputString);
   return outputString;
 }
 
 const outputAbra = joinStrings(["abra", "cadabra"]);
 const outputAbcde = joinStrings(["a", "b", "c", "d", "e"]);
-
-console.log("OUTPUTS:", outputAbra, outputAbcde);
+// console.log("OUTPUTS:", outputAbra, outputAbcde);
 
 // -------------------------------  INTERMEDIATE
 
